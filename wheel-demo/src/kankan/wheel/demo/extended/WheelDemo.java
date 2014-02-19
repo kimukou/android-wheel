@@ -18,6 +18,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 public class WheelDemo extends ListActivity {
+	@SuppressWarnings("unchecked")
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

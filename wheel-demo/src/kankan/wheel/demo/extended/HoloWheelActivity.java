@@ -19,12 +19,12 @@ public class HoloWheelActivity extends Activity {
 		setContentView(R.layout.cities_holo_layout);
 
 		final WheelView cities = (WheelView) findViewById(R.id.city);
-		cities.setVisibleItems(5); // Number of items
+		cities.setVisibleItems(10); // Number of items
 		cities.setWheelBackground(R.drawable.wheel_bg_holo);
 		cities.setWheelForeground(R.drawable.wheel_val_holo);
-		cities.setShadowColor(0xFF000000, 0x88000000, 0x00000000);
+		//cities.setShadowColor(0xFF000000, 0x88000000, 0x00000000);
 		cities.setViewAdapter(new CityAdapter(this));
-		cities.setCurrentItem(3);
+		cities.setCurrentItem(5);
 	}
 
 	/**
